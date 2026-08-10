@@ -19,7 +19,6 @@ public class DuplicateValues {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 4,2, 5, 6, 8, -8};
-        int target = 0;
         boolean result = Duplicate(arr);
 
         System.out.println(result);
